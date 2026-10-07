@@ -4,6 +4,7 @@ import Footer from "./components/Footer";
 import ScrollToTop from "./components/ScrollToTop";
 import Home from "./pages/Home";
 import About from "./pages/About";
+import DeleteAccount from "./pages/DeleteAccount";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
 import TermsAndConditions from "./pages/TermsAndConditions";
 
@@ -35,6 +36,7 @@ export default function App() {
           <Route path="/about" element={<About />} />
           <Route path="/privacy-policy" element={<PrivacyPolicy />} />
           <Route path="/terms-and-conditions" element={<TermsAndConditions />} />
+          <Route path="/delete-account" element={<DeleteAccount />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </main>
